@@ -16,7 +16,7 @@ In a Hive shell, define the tables and load the data:
     CREATE TABLE soccer ( sid int, ts bigint, x double, y double, z double, v double, a double, vx double, vy double, vz double, ax double, ay double, az double ) ROW FORMAT FIELDS TERMINATED BY ',';
     CREATE TABLE sensors ( sid int, sensor_position string, team string, player_type string, player_name string ) ROW FORMAT FIELDS TERMINATED BY ',';
     LOAD DATA LOCAL INPATH 'full-game' INTO TABLE soccer;
-    LOAD DATA LOCAL INPATH 'sensors' INTO TABLE sensors;
+    LOAD DATA LOCAL INPATH 'sensors.csv' INTO TABLE sensors;
 
 In web.rb configure 'IMPALA_SERVER' to point to an Impala daemon on your cluster
 
