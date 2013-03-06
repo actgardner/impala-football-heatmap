@@ -5,7 +5,7 @@ A simple Ruby/Impala demo visualizing the DEB Grand Challenge 2013 Football data
 
 #Requirements
 
-You must have a Hadoop cluster, with Hive and Impala configured. You can use the [Cloudera Impala Demo VM](https://ccp.cloudera.com/display/SUPPORT/Cloudera\'s+Impala+Demo+VM), which has everything pre-configured, to get test it out on your desktop.
+You must have a Hadoop cluster, with Hive and Impala configured. You can use the [Cloudera Impala Demo VM](https://ccp.cloudera.com/display/SUPPORT/Cloudera\'s+Impala+Demo+VM), which has everything pre-configured, to get test it out on a single machine.
 
 #To Use
 
@@ -22,8 +22,10 @@ In web.rb configure IMPALA_SERVER to point to an Impala daemon on your cluster
 
 Start the server with 'ruby web.rb'. You should be able to see the visualization by pointing your browser at port 4567 on your server.
 
-#Shout Outs
+#Thanks
 
 To put this together quickly, we used [spin.js](http://fgnass.github.com/spin.js/) for the loading spinner and [heatmap.js](http://www.patrick-wied.at/static/heatmapjs/) to draw the heatmap. 
 
 On the backend, Colin Marc's [impala-ruby](https://github.com/colinmarc/impala-ruby) was essential
+
+The [football pitch background image](http://commons.wikimedia.org/wiki/File:Kentt%C3%A4.png) is from Wikimedia Commons user Lenin 
