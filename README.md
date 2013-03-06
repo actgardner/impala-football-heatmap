@@ -18,10 +18,12 @@ In a Hive shell, define the tables and load the data:
     LOAD DATA LOCAL INPATH 'full-game' INTO TABLE soccer;
     LOAD DATA LOCAL INPATH 'sensors.csv' INTO TABLE sensors;
 
-In web.rb configure 'IMPALA_SERVER' to point to an Impala daemon on your cluster
+In web.rb configure IMPALA_SERVER to point to an Impala daemon on your cluster
 
 Start the server with 'ruby web.rb'. You should be able to see the visualization by pointing your browser at port 4567 on your server.
 
 #Shout Outs
 
-To put this together quickly, we used [spin.js](http://fgnass.github.com/spin.js/) for the loading spinner and [heatmap.js](http://www.patrick-wied.at/static/heatmapjs/) to draw the heatmap.
+To put this together quickly, we used [spin.js](http://fgnass.github.com/spin.js/) for the loading spinner and [heatmap.js](http://www.patrick-wied.at/static/heatmapjs/) to draw the heatmap. 
+
+On the backend, Colin Marc's [impala-ruby](https://github.com/colinmarc/impala-ruby) was essential
