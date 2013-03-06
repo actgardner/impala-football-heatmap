@@ -1,0 +1,26 @@
+#player-holder {
+    float: left;
+    position: absolute;
+    bottom: 200px;
+    right: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#range-holder {
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+    width: 300px;
+    float: left;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tickLabel {
+    text-align: center;
+    display: inline-block;
+}
+
