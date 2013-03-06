@@ -2,10 +2,9 @@ var heatmap;
 var loading = new Spinner;
 var inprogress = false;
 var uptodate = true;
-var minTime=0, maxTime=90;
+var minTime=0, maxTime=80;
 
 window.onload = function(){
-    // heatmap configuration
     var config = {
         element: document.getElementById("heatmap-canvas"),
         radius: 20,
@@ -44,7 +43,7 @@ function populatePlayers(data){
     $('#player-select').attr('disabled', false);
     $('#player-select').empty();
     for ( var i in data['players'] ){
-        $('#player-select').append(new Option(data['players'][i], data['players'][i]));        
+        $('#player-select').append(new Option(data['players'][i]['player_name'], data['players'][i]['player_name']));        
     } 
     $('#sensor-select').attr('disabled', false);
     $('#sensor-select').empty();
@@ -75,8 +74,8 @@ function reqNewData(){
    $(e).css('top', '50%');
    $('#heatmap-canvas').append(e);
    $.get('/data', 
-         {'min': minTime, 
-          'max': maxTime, 
+         {'min': (minTime *60000000000000)  + 10629342490369879, 
+          'max': (maxTime *60000000000000)  + 10629342490369879, 
           'sensor': $('#sensor-select').val(), 
           'player': $('#player-select').val()},
           displayNewData ); 
@@ -92,3 +91,4 @@ function displayNewData(data){
     }
     uptodate = true;
 }
+

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/flick/jquery-ui.css'></link>
+        <link rel='stylesheet' href='impala_viz.css'></link>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+        <script src='spin.min.js'></script> 
+        <script src='heatmap.js'></script>
+        <script src='impala_viz.js'></script>
+    </head>
+    <body>
+        <div id='heatmap-canvas' style='width: 1000px; height:700px; background-image:url(football.jpg); background-repeat: none; background-size: cover;'></div>
+        <div id='player-holder'>
+            <label>Player</label><select name='player-select' id='player-select'></select>
+            <label>Sensor</label><select name='sensor-select' id='sensor-select'></select>
+        </div>
+        <div id='range-holder'>
+            <label for='time-range'>Time Span</label>
+            <div id='time-range'></div>
+        </div>
+    </body>
+</html>
