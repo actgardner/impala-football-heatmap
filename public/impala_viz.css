@@ -25,8 +25,8 @@
 }
 
 #heatmap-canvas {
-    width: 1000px; 
-    height:700px; 
+    width: 883px; 
+    height: 522px; 
     background-image:url(football.png); 
     background-repeat: none; 
     background-size: cover;

@@ -13,14 +13,25 @@ Grab the [DEB grand challenge sensor data](http://www.orgs.ttu.edu/debs2013/inde
 
 In a Hive shell, define the tables and load the data:
 
-    CREATE TABLE soccer ( sid int, ts bigint, x double, y double, z double, v double, a double, vx double, vy double, vz double, ax double, ay double, az double ) ROW FORMAT FIELDS TERMINATED BY ',';
-    CREATE TABLE sensors ( sid int, sensor_position string, team string, player_type string, player_name string ) ROW FORMAT FIELDS TERMINATED BY ',';
+    CREATE TABLE soccer ( sid int, ts bigint, x double, y double, z double, v double, a double, vx double, vy double, vz double, ax double, ay double, az double ) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+    CREATE TABLE sensors ( sid int, sensor_position string, team string, player_type string, player_name string ) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
     LOAD DATA LOCAL INPATH 'full-game' INTO TABLE soccer;
     LOAD DATA LOCAL INPATH 'sensors.csv' INTO TABLE sensors;
 
 In web.rb configure IMPALA_SERVER to point to an Impala daemon on your cluster
 
 Start the server with 'ruby web.rb'. You should be able to see the visualization by pointing your browser at port 4567 on your server.
+
+#Partitioning
+
+To partition on the sensor id, which speeds up the queries a bit, you can run the following:
+
+    SET hive.exec.dynamic.partition=true;
+    SET hive.exec.dynamic.partition.mode=nonstrict;
+    CREATE TABLE soccer_part (ts bigint, x double, y double, z double, v double, a double, vx double, vy double, vz double, ax double, ay double, az double) PARTITIONED BY (sid int) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+    INSERT OVERWRITE TABLE soccer_part PARTITION(sid) select ts,x,y,z,v,a,vx,vy,vz,ax,ay,az,sid from soccer;
+
+You'll have to update the query in web.rb to use the partitioned table, as well.
 
 #Thanks
 
