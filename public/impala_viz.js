@@ -8,8 +8,8 @@ var players;
 window.onload = function(){
     var config = {
         element: document.getElementById("heatmap-canvas"),
-        radius: 40,
-        opacity: 80,
+        radius: 25,
+        opacity: 70,
         legend: {
             position: 'br',
             title: 'Football Position Heatmap'
@@ -101,7 +101,10 @@ function getSid(sensor_type, player_name){
 function displayNewData(data){
     loading.stop();
     inprogress = false;
-    heatmap.store.setDataSet({max: findMax(data), data: data});
+    data=setCount(data);
+    var m = findMax(data);
+    console.log(m);
+    heatmap.store.setDataSet({max: m, data: data});
     if ( ! uptodate ) {
         uptodate = true;
         reqNewData();
@@ -109,10 +112,17 @@ function displayNewData(data){
     uptodate = true;
 }
 
+function setCount(data){
+    for ( var i in data ){
+        data[i].count = data[i].val;
+    }
+    return data;
+}
+
 function findMax(data){
     var max=[0,0,0];
     for ( var i in data ){
-       max = addToList(data[i].val, max, 20); 
+       max = addToList(data[i].count, max, 20); 
     }
     console.log(max);
     return max[2];

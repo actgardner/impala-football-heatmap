@@ -18,9 +18,9 @@ In a Hive shell, define the tables and load the data:
     LOAD DATA LOCAL INPATH 'full-game' INTO TABLE soccer;
     LOAD DATA LOCAL INPATH 'sensors.csv' INTO TABLE sensors;
 
-In web.rb configure IMPALA_SERVER to point to an Impala daemon on your cluster
+In web.rb configure IMPALA_SERVER to point to an Impala daemon on your cluster.
 
-Start the server with 'ruby web.rb'. You should be able to see the visualization by pointing your browser at port 4567 on your server.
+Start the server with 'sudo ruby web.rb'.
 
 #Partitioning
 
