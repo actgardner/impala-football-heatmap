@@ -39,24 +39,25 @@ window.onload = function(){
 
 function requestPlayers(){
    $('#player-select').attr('disabled', true);
-   $('#sensor-select').attr('disabled', true);
    $.get('/players', populatePlayers); 
 }
 
 function populatePlayers(data){
-    players=data.players;
+    var lastTeam = false;
     $('#player-select').attr('disabled', false);
     $('#player-select').empty();
-    for ( var i in data['players'] ){
-        if ( data['players'][i]['sensor_position'] === "LL" ){
-            $('#player-select').append(new Option(data['players'][i]['player_name'], data['players'][i]['player_name']));        
+    optGroup = $(document.createElement('optgroup')).attr('label', "Other");
+    $('#player-select').append(optGroup);
+    for ( var i in data ){
+        if ( data[i]['team'] !== lastTeam){
+            if ( data[i]['team'] ){
+               lastTeam = data[i]['team'];
+               optGroup = $(document.createElement('optgroup')).attr('label', "Team "+lastTeam);
+               $('#player-select').append(optGroup);
+            }
         }
+        optGroup.append(new Option(data[i]['player_name'], data[i]['sid']));        
     } 
-    $('#sensor-select').attr('disabled', false);
-    $('#sensor-select').empty();
-    for ( var i in data['sensors'] ){
-        $('#sensor-select').append(new Option(data['sensors'][i], data['sensors'][i]));
-    }
     reqNewData();
 }
 
@@ -84,18 +85,8 @@ function reqNewData(){
    $.get('/data', 
          {'min': (minTime *60000000000000)  + 10629342490369879, // picoseconds to seconds, plus the offset 
           'max': (maxTime *60000000000000)  + 10629342490369879, 
-          'sid': getSid($('#sensor-select').val(), $('#player-select').val())}, 
+          'sid': $('#player-select').val()}, 
           displayNewData ); 
-}
-
-function getSid(sensor_type, player_name){
-    console.log(sensor_type+" "+player_name);
-    for (var i in players){
-        if ( players[i].player_name === player_name 
-             && players[i].sensor_position === sensor_type){
-            return players[i].sid;
-        }
-    }
 }
 
 function displayNewData(data){
@@ -114,7 +105,12 @@ function displayNewData(data){
 
 function setCount(data){
     for ( var i in data ){
-        data[i].count = data[i].val;
+        // Kludge to support reporting the ball position
+        if ( $('#player-select').val() == 4 ){
+            data[i].count = data[i].val/10;
+        } else {
+            data[i].count = data[i].val;
+        }
     }
     return data;
 }
