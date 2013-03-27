@@ -15,7 +15,7 @@ get '/data' do
   content_type 'application/json'
   data=[]
   Impala.connect(IMPALA_SERVER, 21000) do |conn|
-    data = conn.query("select (round(x/2650)*17)+440 as x, (round(-1*y/3400)*24)+280 as y, count(*)/200 as val from soccer WHERE sid =#{params[:sid]} AND ts < #{params[:max]} AND ts > #{params[:min]} group by x,y")
+    data = conn.query("select (round(-1*x/2624)*25)+573 as y, (round(-1*y/3400)*34)+363 as x, count(*)/200 as val from soccer WHERE sid =#{params[:sid]} AND ts < #{params[:max]} AND ts > #{params[:min]} group by x,y")
   end
   return JSON.dump data
 end

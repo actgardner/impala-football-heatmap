@@ -10,14 +10,20 @@
         <script src='impala_viz.js'></script>
     </head>
     <body>
-        <div id='heatmap-canvas' width='883px' height='522px'></div>
-        <div id='player-holder'>
-            <label>Player</label><select name='player-select' id='player-select'></select>
-            <label>Sensor</label><select name='sensor-select' id='sensor-select'></select>
+        <div id='top-nav'>
+            <h1>Interactive Data Visualization With Impala</h1>
+            <p>Select a sensor to map and a span of time to see that player's position on the field.</p>
         </div>
-        <div id='range-holder'>
-            <label for='time-range'>Time Span</label>
-            <div id='time-range'></div>
+        <div id='container'>
+            <div id='heatmap-canvas' width='726px' height='597px'></div>
+            <div id='player-holder'>
+               <label>Player</label><select name='player-select' id='player-select'></select>
+               <label>Sensor</label><select name='sensor-select' id='sensor-select'></select>
+            </div>
+            <div id='range-holder'>
+               <label for='time-range'>Time (minutes)</label>
+               <div id='time-range'></div>
+            </div>
         </div>
     </body>
 </html>

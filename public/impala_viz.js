@@ -8,11 +8,11 @@ var players;
 window.onload = function(){
     var config = {
         element: document.getElementById("heatmap-canvas"),
-        radius: 25,
-        opacity: 70,
+        radius: 34,
+        opacity: 80,
         legend: {
             position: 'br',
-            title: 'Football Position Heatmap'
+            title: 'Time In Position (seconds)'
         }
     };
 

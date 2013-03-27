@@ -1,4 +1,6 @@
 #player-holder {
+    background-color: white;
+    z-index: 100;
     float: left;
     position: absolute;
     bottom: 200px;
@@ -8,13 +10,24 @@
     border-radius: 5px;
 }
 
+#top-nav {
+    text-align: center;
+    padding: 5px;
+}
+
+#container {
+    position: relative;
+}
+
 #range-holder {
+    background-color: white;
+    z-index: 100;
     position: absolute;
     bottom: 100px;
     right: 10px;
     width: 300px;
     float: left;
-    padding: 10px 20px;
+    padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -24,10 +37,21 @@
     display: inline-block;
 }
 
+#time-range {
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
 #heatmap-canvas {
-    width: 883px; 
-    height: 522px; 
+    width: 726px; 
+    height: 597px; 
     background-image:url(football.png); 
     background-repeat: none; 
     background-size: cover;
+}
+
+label {
+    font-weight: bold;
+    font-family: Helvetica;
+    margin: 5px;
 }
