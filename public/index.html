@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Impala DEBS 2013 Football Demo</title>
         <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/flick/jquery-ui.css'></link>
         <link rel='stylesheet' href='impala_viz.css'></link>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -9,14 +10,24 @@
         <script src='impala_viz.js'></script>
     </head>
     <body>
-        <div id='heatmap-canvas' width='883px' height='522px'></div>
-        <div id='player-holder'>
-            <label>Player</label><select name='player-select' id='player-select'></select>
-            <label>Sensor</label><select name='sensor-select' id='sensor-select'></select>
+        <div id='top-nav'>
+            <h1>Interactive Data Visualization With Impala</h1>
+            <p>Add sensors to see players, balls and referees on the field, then set the timespan manually, or watch them move in 30s segments by pressing "Playback Game"</p>
         </div>
-        <div id='range-holder'>
-            <label for='time-range'>Time Span</label>
-            <div id='time-range'></div>
+        <div id='container'>
+            <div id='heatmap-canvas' width='650px' height='385px'></div>
+            <div id="pythian-logo"><img src="pythian-logo.png"/></div>
+            <div id='player-holder'>
+            <div id='player-list'></div>
+            <input type='button' value='Add Sensor' id='add-player' />
+            <input type='button' id='play' value='Playback Game' />
+            </div>
+            <div id='range-holder'>
+               <label for='time-range'>Time (minutes)</label>
+               <div id='time-range'></div>
+            </div>
+            <p><a href="http://blog.cloudera.com/blog/2013/03/one-users-impala-experience-at-data-hacking-day/">Guest blog post</a> at Cloudera Blog by Alan Gardner.</p>
+            <p><a href="http://www.pythian.com/blog/impala-ec2-tips-and-trap/">Further details</a> at Pythian Blog.</p>
         </div>
     </body>
 </html>

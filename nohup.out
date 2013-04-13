@@ -1,0 +1,480 @@
+ruby: invalid option --rubygems  (-h will show valid options)
+== Sinatra/1.4.2 has taken the stage on 80 for development with backup from Thin
+209.217.100.70 - - [26/Mar/2013 19:42:25] "GET /index.html HTTP/1.1" 200 - 0.0032
+209.217.100.70 - - [26/Mar/2013 19:42:25] "GET /impala_viz.js HTTP/1.1" 304 - 0.0010
+209.217.100.70 - - [26/Mar/2013 19:42:25] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+209.217.100.70 - - [26/Mar/2013 19:42:25] "GET /players HTTP/1.1" 200 1837 0.1578
+
+== Sinatra has ended his set (crowd applauds)
+
+== Sinatra has ended his set (crowd applauds)
+209.217.100.70 - - [26/Mar/2013 19:42:31] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 5.2126
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:80, CTRL+C to stop
+>> Stopping ...
+>> Stopping ...
+== Sinatra/1.4.2 has taken the stage on 80 for development with backup from Thin
+209.217.100.70 - - [26/Mar/2013 19:42:41] "GET /index.html HTTP/1.1" 304 - 0.0030
+209.217.100.70 - - [26/Mar/2013 19:42:41] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+209.217.100.70 - - [26/Mar/2013 19:42:41] "GET /players HTTP/1.1" 200 1837 0.1573
+209.217.100.70 - - [26/Mar/2013 19:42:47] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 5.1451
+209.217.100.70 - - [26/Mar/2013 19:43:05] "GET / HTTP/1.1" 302 - 0.0009
+209.217.100.70 - - [26/Mar/2013 19:43:06] "GET /impala_viz.js HTTP/1.1" 304 - 0.0009
+209.217.100.70 - - [26/Mar/2013 19:43:06] "GET /favicon.ico HTTP/1.1" 404 447 0.0011
+209.217.100.70 - - [26/Mar/2013 19:43:06] "GET /players HTTP/1.1" 200 1837 0.1583
+209.217.100.70 - - [26/Mar/2013 19:43:12] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 5.3396
+209.217.100.70 - - [26/Mar/2013 20:07:10] "GET /data?min=10629342490369880&max=15429342490369880&sid=63 HTTP/1.1" 200 10827 4.3539
+209.217.100.70 - - [26/Mar/2013 20:07:21] "GET /data?min=10629342490369880&max=15429342490369880&sid=57 HTTP/1.1" 200 11245 4.2056
+209.217.100.70 - - [26/Mar/2013 20:07:30] "GET /data?min=10629342490369880&max=13149342490369880&sid=57 HTTP/1.1" 200 8114 4.1762
+209.217.100.70 - - [26/Mar/2013 20:07:38] "GET /data?min=11529342490369880&max=13149342490369880&sid=57 HTTP/1.1" 200 6450 4.0802
+209.217.100.70 - - [26/Mar/2013 20:09:59] "GET /data?min=11529342490369880&max=13149342490369880&sid=49 HTTP/1.1" 200 4249 5.2835
+209.217.100.70 - - [26/Mar/2013 20:13:13] "GET /index.html HTTP/1.1" 200 - 0.0011
+209.217.100.70 - - [26/Mar/2013 20:13:13] "GET /impala_viz.js HTTP/1.1" 304 - 0.0009
+209.217.100.70 - - [26/Mar/2013 20:13:13] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 20:13:14] "GET /players HTTP/1.1" 200 1837 0.1606
+209.217.100.70 - - [26/Mar/2013 20:13:18] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.2123
+209.217.100.70 - - [26/Mar/2013 20:13:21] "GET /index.html HTTP/1.1" 200 - 0.0010
+209.217.100.70 - - [26/Mar/2013 20:13:21] "GET /impala_viz.css HTTP/1.1" 200 - 0.0006
+209.217.100.70 - - [26/Mar/2013 20:13:21] "GET /impala_viz.js HTTP/1.1" 200 - 0.0020
+209.217.100.70 - - [26/Mar/2013 20:13:21] "GET /heatmap.js HTTP/1.1" 200 - 0.0015
+209.217.100.70 - - [26/Mar/2013 20:13:21] "GET /spin.min.js HTTP/1.1" 200 - 0.0011
+209.217.100.70 - - [26/Mar/2013 20:13:22] "GET /football.png HTTP/1.1" 200 - 0.0010
+209.217.100.70 - - [26/Mar/2013 20:13:22] "GET /players HTTP/1.1" 200 1837 0.1495
+209.217.100.70 - - [26/Mar/2013 20:13:23] "GET /favicon.ico HTTP/1.1" 404 447 0.0010
+209.217.100.70 - - [26/Mar/2013 20:13:27] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.1954
+
+== Sinatra has ended his set (crowd applauds)
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:80, CTRL+C to stop
+>> Stopping ...
+== Sinatra/1.4.2 has taken the stage on 80 for development with backup from Thin
+209.217.100.70 - - [26/Mar/2013 20:36:55] "GET / HTTP/1.1" 302 - 0.0028
+209.217.100.70 - - [26/Mar/2013 20:36:56] "GET /index.html HTTP/1.1" 304 - 0.0015
+209.217.100.70 - - [26/Mar/2013 20:36:56] "GET /impala_viz.js HTTP/1.1" 304 - 0.0006
+209.217.100.70 - - [26/Mar/2013 20:36:56] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+209.217.100.70 - - [26/Mar/2013 20:37:02] "GET /players HTTP/1.1" 200 1837 6.2067
+209.217.100.70 - - [26/Mar/2013 20:39:30] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 147.6514
+209.217.100.70 - - [26/Mar/2013 20:39:32] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 95.7040
+209.217.100.70 - - [26/Mar/2013 20:39:32] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 65.7336
+209.217.100.70 - - [26/Mar/2013 20:40:04] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:40:04] "GET /impala_viz.css HTTP/1.1" 304 - 0.0005
+209.217.100.70 - - [26/Mar/2013 20:40:05] "GET /football.png HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:40:05] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 20:40:05] "GET /players HTTP/1.1" 200 1837 0.2157
+209.217.100.70 - - [26/Mar/2013 20:40:10] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.4949
+209.217.100.70 - - [26/Mar/2013 20:51:05] "GET /index.html HTTP/1.1" 304 - 0.0007
+209.217.100.70 - - [26/Mar/2013 20:51:06] "GET /impala_viz.js HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:51:06] "GET /favicon.ico HTTP/1.1" 404 447 0.0007
+209.217.100.70 - - [26/Mar/2013 20:51:06] "GET /players HTTP/1.1" 200 1837 0.2271
+209.217.100.70 - - [26/Mar/2013 20:51:14] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 7.6402
+209.217.100.70 - - [26/Mar/2013 20:51:26] "GET /data?min=10629342490369880&max=15429342490369880&sid=23 HTTP/1.1" 200 8640 7.4206
+209.217.100.70 - - [26/Mar/2013 20:52:56] "GET /index.html HTTP/1.1" 304 - 0.0009
+209.217.100.70 - - [26/Mar/2013 20:52:56] "GET /impala_viz.js HTTP/1.1" 304 - 0.0005
+209.217.100.70 - - [26/Mar/2013 20:52:56] "GET /favicon.ico HTTP/1.1" 404 447 0.0011
+209.217.100.70 - - [26/Mar/2013 20:52:57] "GET /players HTTP/1.1" 200 1837 0.2180
+209.217.100.70 - - [26/Mar/2013 20:53:06] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 9.8006
+209.217.100.70 - - [26/Mar/2013 20:53:24] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:53:24] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 20:53:24] "GET /players HTTP/1.1" 200 1837 0.2170
+209.217.100.70 - - [26/Mar/2013 20:53:34] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 9.0583
+209.217.100.70 - - [26/Mar/2013 20:56:05] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:56:05] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 20:56:06] "GET /players HTTP/1.1" 200 1837 0.5729
+209.217.100.70 - - [26/Mar/2013 20:57:22] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 76.1200
+209.217.100.70 - - [26/Mar/2013 20:57:32] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 27.0382
+209.217.100.70 - - [26/Mar/2013 20:57:43] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:57:43] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 20:57:43] "GET /players HTTP/1.1" 200 1837 0.2356
+209.217.100.70 - - [26/Mar/2013 20:57:51] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 7.7464
+209.217.100.70 - - [26/Mar/2013 20:57:54] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:57:55] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 20:57:55] "GET /players HTTP/1.1" 200 1837 0.2168
+209.217.100.70 - - [26/Mar/2013 20:58:03] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 7.2397
+209.217.100.70 - - [26/Mar/2013 20:58:12] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:58:12] "GET /favicon.ico HTTP/1.1" 404 447 0.0007
+209.217.100.70 - - [26/Mar/2013 20:58:12] "GET /players HTTP/1.1" 200 1837 0.2114
+209.217.100.70 - - [26/Mar/2013 20:58:20] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 7.3811
+209.217.100.70 - - [26/Mar/2013 20:59:28] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:59:29] "GET /impala_viz.js HTTP/1.1" 304 - 0.0006
+209.217.100.70 - - [26/Mar/2013 20:59:29] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+209.217.100.70 - - [26/Mar/2013 20:59:29] "GET /players HTTP/1.1" 200 1837 0.2170
+209.217.100.70 - - [26/Mar/2013 20:59:37] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 7.1328
+209.217.100.70 - - [26/Mar/2013 20:59:41] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 20:59:41] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 20:59:41] "GET /players HTTP/1.1" 200 1837 0.2166
+209.217.100.70 - - [26/Mar/2013 21:00:36] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 7.2361
+209.217.100.70 - - [26/Mar/2013 21:00:49] "GET /index.html HTTP/1.1" 304 - 0.0007
+209.217.100.70 - - [26/Mar/2013 21:00:49] "GET /impala_viz.css HTTP/1.1" 304 - 0.0015
+209.217.100.70 - - [26/Mar/2013 21:00:49] "GET /spin.min.js HTTP/1.1" 304 - 0.0010
+209.217.100.70 - - [26/Mar/2013 21:00:49] "GET /heatmap.js HTTP/1.1" 304 - 0.0006
+209.217.100.70 - - [26/Mar/2013 21:00:49] "GET /impala_viz.js HTTP/1.1" 304 - 0.0005
+209.217.100.70 - - [26/Mar/2013 21:00:50] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 21:00:50] "GET /players HTTP/1.1" 200 1837 0.1469
+209.217.100.70 - - [26/Mar/2013 21:00:54] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.2384
+209.217.100.70 - - [26/Mar/2013 21:01:02] "GET /data?min=10629342490369880&max=15429342490369880&sid=19 HTTP/1.1" 200 11572 20.9394
+Thrift::TransportException - Could not connect to 54.225.172.186:21000: Connection timed out - connect(2):
+	/var/lib/gems/1.8/gems/thrift-0.9.0/lib/thrift/transport/socket.rb:54:in `open'
+	/var/lib/gems/1.8/gems/thrift-0.9.0/lib/thrift/transport/buffered_transport.rb:37:in `open'
+	/var/lib/gems/1.8/gems/impala-0.1.5/lib/impala/connection.rb:26:in `open'
+	/var/lib/gems/1.8/gems/impala-0.1.5/lib/impala/connection.rb:12:in `initialize'
+	/var/lib/gems/1.8/gems/impala-0.1.5/lib/impala.rb:34:in `new'
+	/var/lib/gems/1.8/gems/impala-0.1.5/lib/impala.rb:34:in `connect'
+	web.rb:17:in `GET /data'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1414:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1414:in `compile!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:944:in `[]'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:944:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:960:in `route_eval'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:944:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:981:in `process_route'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:979:in `catch'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:979:in `process_route'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:943:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:942:in `each'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:942:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1053:in `dispatch!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `catch'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1050:in `dispatch!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:878:in `call!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `catch'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:878:in `call!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:864:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/json_csrf.rb:18:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/base.rb:49:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call_without_check'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:209:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:202:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/showexceptions.rb:21:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:172:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1947:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1610:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1693:in `synchronize'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1610:in `call'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:81:in `pre_process'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `spawn_threadpool'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1033:in `initialize'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1033:in `new'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1033:in `spawn_threadpool'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1023:in `defer'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:51:in `process'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1569:in `run!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/main.rb:25
+	web.rb:23
+IOError - closed stream:
+	/var/lib/gems/1.8/gems/thrift-0.9.0/lib/thrift/transport/socket.rb:63:in `write'
+	/var/lib/gems/1.8/gems/thrift-0.9.0/lib/thrift/transport/buffered_transport.rb:101:in `flush'
+	/var/lib/gems/1.8/gems/thrift-0.9.0/lib/thrift/transport/buffered_transport.rb:41:in `close'
+	/var/lib/gems/1.8/gems/impala-0.1.5/lib/impala/connection.rb:37:in `close'
+	/var/lib/gems/1.8/gems/impala-0.1.5/lib/impala.rb:40:in `connect'
+	web.rb:17:in `GET /data'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1414:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1414:in `compile!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:944:in `[]'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:944:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:960:in `route_eval'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:944:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:981:in `process_route'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:979:in `catch'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:979:in `process_route'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:943:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:942:in `each'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:942:in `route!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1053:in `dispatch!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `catch'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1050:in `dispatch!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:878:in `call!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `catch'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1035:in `invoke'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:878:in `call!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:864:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/xss_header.rb:18:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/path_traversal.rb:16:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/json_csrf.rb:18:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/base.rb:49:in `call'
+	/var/lib/gems/1.8/gems/rack-protection-1.5.0/lib/rack/protection/frame_options.rb:31:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/logger.rb:15:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/commonlogger.rb:33:in `call_without_check'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:209:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:202:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/showexceptions.rb:21:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:172:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1947:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1610:in `call'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1693:in `synchronize'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1610:in `call'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:81:in `pre_process'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:79:in `catch'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:79:in `pre_process'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `call'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1037:in `spawn_threadpool'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1033:in `initialize'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1033:in `new'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1033:in `spawn_threadpool'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:1023:in `defer'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:51:in `process'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/connection.rb:39:in `receive_data'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+	/var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+	/var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1569:in `run!'
+	/var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/main.rb:25
+	web.rb:23
+209.217.100.70 - - [26/Mar/2013 21:03:27] "GET /index.html HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 21:03:27] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+209.217.100.70 - - [26/Mar/2013 21:03:27] "GET /players HTTP/1.1" 200 1837 0.1563
+209.217.100.70 - - [26/Mar/2013 21:03:31] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.1390
+209.217.100.70 - - [26/Mar/2013 21:09:15] "GET / HTTP/1.1" 302 - 0.0009
+209.217.100.70 - - [26/Mar/2013 21:09:15] "GET /impala_viz.js HTTP/1.1" 304 - 0.0008
+209.217.100.70 - - [26/Mar/2013 21:09:16] "GET /favicon.ico HTTP/1.1" 404 447 0.0011
+209.217.100.70 - - [26/Mar/2013 21:09:16] "GET /players HTTP/1.1" 200 1837 0.1562
+209.217.100.70 - - [26/Mar/2013 21:09:20] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0843
+209.217.100.70 - - [26/Mar/2013 21:09:32] "GET /data?min=10629342490369880&max=15429342490369880&sid=53 HTTP/1.1" 200 11473 4.0834
+71.198.20.36 - - [26/Mar/2013 21:38:44] "GET / HTTP/1.1" 302 - 0.0010
+71.198.20.36 - - [26/Mar/2013 21:38:44] "GET /index.html HTTP/1.1" 200 - 0.0009
+71.198.20.36 - - [26/Mar/2013 21:38:44] "GET /impala_viz.css HTTP/1.1" 200 - 0.0009
+71.198.20.36 - - [26/Mar/2013 21:38:44] "GET /spin.min.js HTTP/1.1" 200 - 0.0286
+71.198.20.36 - - [26/Mar/2013 21:38:44] "GET /heatmap.js HTTP/1.1" 200 - 0.0016
+71.198.20.36 - - [26/Mar/2013 21:38:44] "GET /impala_viz.js HTTP/1.1" 200 - 0.0011
+71.198.20.36 - - [26/Mar/2013 21:38:44] "GET /football.png HTTP/1.1" 200 - 0.0010
+71.198.20.36 - - [26/Mar/2013 21:38:45] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+71.198.20.36 - - [26/Mar/2013 21:38:45] "GET /players HTTP/1.1" 200 1837 0.1555
+71.198.20.36 - - [26/Mar/2013 21:38:49] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0740
+71.198.20.36 - - [26/Mar/2013 21:38:57] "GET /data?min=10629342490369880&max=15429342490369880&sid=49 HTTP/1.1" 200 9064 3.9710
+71.198.20.36 - - [26/Mar/2013 21:39:05] "GET /data?min=10629342490369880&max=15429342490369880&sid=69 HTTP/1.1" 200 11572 4.1855
+71.198.20.36 - - [26/Mar/2013 21:39:16] "GET /data?min=10629342490369880&max=15369342490369880&sid=69 HTTP/1.1" 200 11572 4.0782
+71.198.20.36 - - [26/Mar/2013 21:39:20] "GET /data?min=10629342490369880&max=11229342490369880&sid=69 HTTP/1.1" 200 4477 4.0732
+71.198.20.36 - - [26/Mar/2013 21:41:17] "GET /data?min=10629342490369880&max=11289342490369880&sid=69 HTTP/1.1" 200 4521 4.0745
+71.198.20.36 - - [26/Mar/2013 21:41:22] "GET /data?min=11409342490369880&max=12069342490369880&sid=69 HTTP/1.1" 200 4331 4.1789
+71.198.20.36 - - [26/Mar/2013 21:41:35] "GET /data?min=11469342490369880&max=12069342490369880&sid=69 HTTP/1.1" 200 4297 3.9834
+71.198.20.36 - - [26/Mar/2013 21:41:39] "GET /data?min=11529342490369880&max=12069342490369880&sid=69 HTTP/1.1" 200 4212 4.0805
+71.198.20.36 - - [26/Mar/2013 21:42:17] "GET /data?min=11529342490369880&max=12129342490369880&sid=69 HTTP/1.1" 200 4335 5.6980
+71.198.20.36 - - [26/Mar/2013 21:42:19] "GET /data?min=11529342490369880&max=12129342490369880&sid=69 HTTP/1.1" 200 4335 5.7178
+71.198.20.36 - - [26/Mar/2013 21:42:23] "GET /data?min=11529342490369880&max=12609342490369880&sid=69 HTTP/1.1" 200 5058 4.0693
+209.217.100.70 - - [26/Mar/2013 22:03:39] "GET / HTTP/1.1" 302 - 0.0009
+209.217.100.70 - - [26/Mar/2013 22:03:39] "GET /index.html HTTP/1.1" 200 - 0.0007
+209.217.100.70 - - [26/Mar/2013 22:03:39] "GET /impala_viz.css HTTP/1.1" 200 - 0.0006
+209.217.100.70 - - [26/Mar/2013 22:03:39] "GET /spin.min.js HTTP/1.1" 200 - 0.0012
+209.217.100.70 - - [26/Mar/2013 22:03:39] "GET /heatmap.js HTTP/1.1" 200 - 0.0008
+209.217.100.70 - - [26/Mar/2013 22:03:39] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+209.217.100.70 - - [26/Mar/2013 22:03:39] "GET /football.png HTTP/1.1" 200 - 0.0007
+209.217.100.70 - - [26/Mar/2013 22:03:40] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+209.217.100.70 - - [26/Mar/2013 22:03:40] "GET /players HTTP/1.1" 200 1837 0.1611
+209.217.100.70 - - [26/Mar/2013 22:03:44] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0183
+209.217.100.70 - - [26/Mar/2013 22:04:49] "GET /data?min=10629342490369880&max=15429342490369880&sid=49 HTTP/1.1" 200 9064 3.9719
+209.217.100.70 - - [26/Mar/2013 22:04:56] "GET /data?min=10629342490369880&max=15429342490369880&sid=19 HTTP/1.1" 200 11572 3.9897
+209.217.100.70 - - [26/Mar/2013 22:05:07] "GET /data?min=10629342490369880&max=15429342490369880&sid=53 HTTP/1.1" 200 11473 4.0940
+209.217.100.70 - - [26/Mar/2013 22:08:03] "GET /data?min=10629342490369880&max=15429342490369880&sid=23 HTTP/1.1" 200 8640 3.9784
+209.217.100.70 - - [26/Mar/2013 22:08:10] "GET /data?min=10629342490369880&max=15429342490369880&sid=57 HTTP/1.1" 200 11245 3.9738
+209.217.100.70 - - [26/Mar/2013 22:08:18] "GET /data?min=10629342490369880&max=15429342490369880&sid=59 HTTP/1.1" 200 11358 3.9741
+209.217.100.70 - - [26/Mar/2013 22:08:25] "GET /data?min=10629342490369880&max=15429342490369880&sid=63 HTTP/1.1" 200 10827 4.0746
+209.217.100.70 - - [26/Mar/2013 22:08:31] "GET /data?min=10629342490369880&max=15429342490369880&sid=65 HTTP/1.1" 200 10065 4.1147
+209.217.100.70 - - [26/Mar/2013 22:08:37] "GET /data?min=10629342490369880&max=15429342490369880&sid=67 HTTP/1.1" 200 9023 3.9706
+209.217.100.70 - - [26/Mar/2013 22:08:44] "GET /data?min=10629342490369880&max=15429342490369880&sid=69 HTTP/1.1" 200 11572 4.0850
+209.217.100.70 - - [26/Mar/2013 22:08:49] "GET /data?min=10629342490369880&max=15429342490369880&sid=71 HTTP/1.1" 200 8923 4.0719
+209.217.100.70 - - [26/Mar/2013 22:08:56] "GET /data?min=10629342490369880&max=15429342490369880&sid=73 HTTP/1.1" 200 9023 3.9707
+209.217.100.70 - - [26/Mar/2013 22:09:25] "GET /data?min=10629342490369880&max=15369342490369880&sid=73 HTTP/1.1" 200 9023 4.0712
+209.217.100.70 - - [26/Mar/2013 22:09:29] "GET /data?min=10629342490369880&max=13029342490369880&sid=73 HTTP/1.1" 200 5467 3.9672
+209.217.100.70 - - [26/Mar/2013 22:09:37] "GET /data?min=10629342490369880&max=12969342490369880&sid=73 HTTP/1.1" 200 5467 4.0644
+209.217.100.70 - - [26/Mar/2013 22:09:41] "GET /data?min=10629342490369880&max=12009342490369880&sid=73 HTTP/1.1" 200 5282 3.9708
+209.217.100.70 - - [26/Mar/2013 22:09:46] "GET /data?min=10629342490369880&max=11889342490369880&sid=73 HTTP/1.1" 200 5276 4.0736
+209.217.100.70 - - [26/Mar/2013 22:09:50] "GET /data?min=10629342490369880&max=11289342490369880&sid=73 HTTP/1.1" 200 4109 3.9990
+209.217.100.70 - - [26/Mar/2013 22:09:57] "GET /data?min=10629342490369880&max=11229342490369880&sid=73 HTTP/1.1" 200 3757 4.1870
+209.217.100.70 - - [26/Mar/2013 22:10:01] "GET /data?min=10629342490369880&max=11109342490369880&sid=73 HTTP/1.1" 200 3705 3.9685
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET / HTTP/1.1" 302 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /index.html HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /spin.min.js HTTP/1.1" 304 - 0.0013
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /impala_viz.css HTTP/1.1" 304 - 0.0010
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /heatmap.js HTTP/1.1" 304 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /impala_viz.js HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /football.png HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+184.175.20.156 - - [26/Mar/2013 22:10:13] "GET /players HTTP/1.1" 200 1837 0.1498
+184.175.20.156 - - [26/Mar/2013 22:10:17] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.9736
+184.175.20.156 - - [26/Mar/2013 22:12:05] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:12:05] "GET /spin.min.js HTTP/1.1" 304 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:12:05] "GET /heatmap.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:12:05] "GET /impala_viz.css HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:12:05] "GET /impala_viz.js HTTP/1.1" 200 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:12:05] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+184.175.20.156 - - [26/Mar/2013 22:12:06] "GET /players HTTP/1.1" 200 1837 0.1499
+184.175.20.156 - - [26/Mar/2013 22:12:10] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.9743
+184.175.20.156 - - [26/Mar/2013 22:12:24] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:12:24] "GET /impala_viz.css HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:12:24] "GET /spin.min.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:12:24] "GET /heatmap.js HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:12:24] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:12:25] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+184.175.20.156 - - [26/Mar/2013 22:12:25] "GET /players HTTP/1.1" 200 1837 0.1493
+184.175.20.156 - - [26/Mar/2013 22:12:29] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.9745
+184.175.20.156 - - [26/Mar/2013 22:12:53] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:12:53] "GET /impala_viz.css HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:12:53] "GET /spin.min.js HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:12:53] "GET /heatmap.js HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:12:53] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:12:53] "GET /favicon.ico HTTP/1.1" 404 447 0.0007
+184.175.20.156 - - [26/Mar/2013 22:12:53] "GET /players HTTP/1.1" 200 1837 0.1487
+184.175.20.156 - - [26/Mar/2013 22:12:57] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.9750
+184.175.20.156 - - [26/Mar/2013 22:13:10] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:13:10] "GET /impala_viz.css HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:13:10] "GET /spin.min.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:13:10] "GET /heatmap.js HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:13:10] "GET /impala_viz.js HTTP/1.1" 200 - 0.0007
+184.175.20.156 - - [26/Mar/2013 22:13:11] "GET /favicon.ico HTTP/1.1" 404 447 0.0011
+184.175.20.156 - - [26/Mar/2013 22:13:11] "GET /players HTTP/1.1" 200 1837 0.1490
+184.175.20.156 - - [26/Mar/2013 22:13:15] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.2650
+184.175.20.156 - - [26/Mar/2013 22:14:15] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:14:15] "GET /impala_viz.css HTTP/1.1" 304 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:14:15] "GET /spin.min.js HTTP/1.1" 304 - 0.0011
+184.175.20.156 - - [26/Mar/2013 22:14:15] "GET /heatmap.js HTTP/1.1" 304 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:14:15] "GET /impala_viz.js HTTP/1.1" 200 - 0.0010
+184.175.20.156 - - [26/Mar/2013 22:14:15] "GET /favicon.ico HTTP/1.1" 404 447 0.0012
+184.175.20.156 - - [26/Mar/2013 22:14:16] "GET /players HTTP/1.1" 200 1837 0.1550
+184.175.20.156 - - [26/Mar/2013 22:14:20] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.9831
+184.175.20.156 - - [26/Mar/2013 22:15:31] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:15:31] "GET /impala_viz.css HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:15:31] "GET /spin.min.js HTTP/1.1" 304 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:15:31] "GET /heatmap.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:15:31] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:15:31] "GET /favicon.ico HTTP/1.1" 404 447 0.0007
+184.175.20.156 - - [26/Mar/2013 22:15:31] "GET /players HTTP/1.1" 200 1837 0.1511
+184.175.20.156 - - [26/Mar/2013 22:15:36] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0674
+184.175.20.156 - - [26/Mar/2013 22:15:45] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:15:45] "GET /impala_viz.css HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:15:46] "GET /spin.min.js HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:15:46] "GET /heatmap.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:15:46] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:15:46] "GET /favicon.ico HTTP/1.1" 404 447 0.0008
+184.175.20.156 - - [26/Mar/2013 22:15:46] "GET /players HTTP/1.1" 200 1837 0.1497
+184.175.20.156 - - [26/Mar/2013 22:15:50] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0804
+184.175.20.156 - - [26/Mar/2013 22:16:00] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:16:00] "GET /impala_viz.css HTTP/1.1" 304 - 0.0007
+184.175.20.156 - - [26/Mar/2013 22:16:00] "GET /spin.min.js HTTP/1.1" 304 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:16:00] "GET /heatmap.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:16:00] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:16:00] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+184.175.20.156 - - [26/Mar/2013 22:16:00] "GET /players HTTP/1.1" 200 1837 0.1502
+184.175.20.156 - - [26/Mar/2013 22:16:04] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.8809
+184.175.20.156 - - [26/Mar/2013 22:16:22] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:16:22] "GET /impala_viz.css HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:16:22] "GET /spin.min.js HTTP/1.1" 304 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:16:22] "GET /heatmap.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:16:22] "GET /impala_viz.js HTTP/1.1" 200 - 0.0010
+184.175.20.156 - - [26/Mar/2013 22:16:22] "GET /favicon.ico HTTP/1.1" 404 447 0.0010
+184.175.20.156 - - [26/Mar/2013 22:16:22] "GET /players HTTP/1.1" 200 1837 0.1510
+184.175.20.156 - - [26/Mar/2013 22:16:26] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.9751
+
+== Sinatra has ended his set (crowd applauds)
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:80, CTRL+C to stop
+>> Stopping ...
+ruby: No such file or directory -- web.app (LoadError)
+== Sinatra/1.4.2 has taken the stage on 80 for development with backup from Thin
+/var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:526:in `start_server'
+	from /var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/backends/tcp_server.rb:16:in `connect'
+	from /var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/backends/base.rb:55:in `start'
+	from /var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `call'
+	from /var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run_machine'
+	from /var/lib/gems/1.8/gems/eventmachine-1.0.3/lib/eventmachine.rb:187:in `run'
+	from /var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/backends/base.rb:63:in `start'
+	from /var/lib/gems/1.8/gems/thin-1.5.1/lib/thin/server.rb:159:in `start'
+	from /var/lib/gems/1.8/gems/rack-1.5.2/lib/rack/handler/thin.rb:16:in `run'
+	from /var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/base.rb:1569:in `run!'
+	from /var/lib/gems/1.8/gems/sinatra-1.4.2/lib/sinatra/main.rb:25
+	from web.rb:23
+>> Thin web server (v1.5.1 codename Straight Razor)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:80, CTRL+C to stop
+== Sinatra/1.4.2 has taken the stage on 80 for development with backup from Thin
+184.175.20.156 - - [26/Mar/2013 22:25:13] "GET /index.html HTTP/1.1" 304 - 0.0031
+184.175.20.156 - - [26/Mar/2013 22:25:13] "GET /impala_viz.css HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:25:14] "GET /spin.min.js HTTP/1.1" 304 - 0.0011
+184.175.20.156 - - [26/Mar/2013 22:25:14] "GET /impala_viz.js HTTP/1.1" 200 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:25:14] "GET /heatmap.js HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:25:14] "GET /favicon.ico HTTP/1.1" 404 447 0.0010
+184.175.20.156 - - [26/Mar/2013 22:25:14] "GET /players HTTP/1.1" 200 1837 0.1557
+184.175.20.156 - - [26/Mar/2013 22:25:18] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.8713
+184.175.20.156 - - [26/Mar/2013 22:25:29] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:25:29] "GET /impala_viz.css HTTP/1.1" 304 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:25:29] "GET /spin.min.js HTTP/1.1" 304 - 0.0014
+184.175.20.156 - - [26/Mar/2013 22:25:29] "GET /heatmap.js HTTP/1.1" 304 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:25:29] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:25:29] "GET /favicon.ico HTTP/1.1" 404 447 0.0011
+184.175.20.156 - - [26/Mar/2013 22:25:29] "GET /players HTTP/1.1" 200 1837 0.1502
+184.175.20.156 - - [26/Mar/2013 22:25:33] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0591
+184.175.20.156 - - [26/Mar/2013 22:26:00] "GET /data?min=10629342490369880&max=13749342490369880&sid=47 HTTP/1.1" 200 10700 3.9702
+184.175.20.156 - - [26/Mar/2013 22:26:08] "GET /data?min=10869342490369880&max=13749342490369880&sid=47 HTTP/1.1" 200 10664 3.9759
+184.175.20.156 - - [26/Mar/2013 22:26:12] "GET /data?min=12309342490369880&max=13749342490369880&sid=47 HTTP/1.1" 200 7382 3.8678
+184.175.20.156 - - [26/Mar/2013 22:26:29] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:26:29] "GET /impala_viz.css HTTP/1.1" 304 - 0.0004
+184.175.20.156 - - [26/Mar/2013 22:26:29] "GET /spin.min.js HTTP/1.1" 304 - 0.0009
+184.175.20.156 - - [26/Mar/2013 22:26:29] "GET /heatmap.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:26:29] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:26:29] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+184.175.20.156 - - [26/Mar/2013 22:26:29] "GET /players HTTP/1.1" 200 1837 0.1506
+184.175.20.156 - - [26/Mar/2013 22:26:33] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0584
+209.217.100.70 - - [26/Mar/2013 22:26:44] "GET /data?min=10629342490369880&max=11109342490369880&sid=47 HTTP/1.1" 200 3888 3.8689
+184.175.20.156 - - [26/Mar/2013 22:26:46] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:26:46] "GET /impala_viz.css HTTP/1.1" 304 - 0.0007
+184.175.20.156 - - [26/Mar/2013 22:26:46] "GET /spin.min.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:26:46] "GET /impala_viz.js HTTP/1.1" 200 - 0.0007
+184.175.20.156 - - [26/Mar/2013 22:26:46] "GET /heatmap.js HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:26:46] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+184.175.20.156 - - [26/Mar/2013 22:26:46] "GET /players HTTP/1.1" 200 1837 0.1481
+184.175.20.156 - - [26/Mar/2013 22:26:54] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 7.3581
+209.217.100.70 - - [26/Mar/2013 22:26:54] "GET /data?min=10629342490369880&max=11229342490369880&sid=47 HTTP/1.1" 200 4699 7.3855
+209.217.100.70 - - [26/Mar/2013 22:26:58] "GET /index.html HTTP/1.1" 304 - 0.0007
+209.217.100.70 - - [26/Mar/2013 22:26:58] "GET /impala_viz.css HTTP/1.1" 304 - 0.0010
+209.217.100.70 - - [26/Mar/2013 22:26:58] "GET /impala_viz.js HTTP/1.1" 200 - 0.0007
+209.217.100.70 - - [26/Mar/2013 22:26:58] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 3.8759
+209.217.100.70 - - [26/Mar/2013 22:26:58] "GET /football.png HTTP/1.1" 304 - 0.0006
+209.217.100.70 - - [26/Mar/2013 22:26:58] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+209.217.100.70 - - [26/Mar/2013 22:26:58] "GET /players HTTP/1.1" 200 1837 0.1503
+209.217.100.70 - - [26/Mar/2013 22:27:02] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 4.0034
+184.175.20.156 - - [26/Mar/2013 22:27:08] "GET /index.html HTTP/1.1" 304 - 0.0008
+184.175.20.156 - - [26/Mar/2013 22:27:08] "GET /impala_viz.css HTTP/1.1" 304 - 0.0005
+184.175.20.156 - - [26/Mar/2013 22:27:08] "GET /spin.min.js HTTP/1.1" 304 - 0.0014
+184.175.20.156 - - [26/Mar/2013 22:27:08] "GET /heatmap.js HTTP/1.1" 304 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:27:08] "GET /impala_viz.js HTTP/1.1" 200 - 0.0006
+184.175.20.156 - - [26/Mar/2013 22:27:08] "GET /favicon.ico HTTP/1.1" 404 447 0.0009
+184.175.20.156 - - [26/Mar/2013 22:27:08] "GET /players HTTP/1.1" 200 1837 0.1500
+184.175.20.156 - - [26/Mar/2013 22:27:14] "GET /data?min=10629342490369880&max=15429342490369880&sid=47 HTTP/1.1" 200 11628 6.3127
+209.217.100.70 - - [26/Mar/2013 22:27:16] "GET /data?min=10629342490369880&max=15429342490369880&sid=49 HTTP/1.1" 200 9064 6.3880
+209.217.100.70 - - [26/Mar/2013 22:27:38] "GET /data?min=10629342490369880&max=15429342490369880&sid=19 HTTP/1.1" 200 11572 4.0687
+209.217.100.70 - - [26/Mar/2013 22:27:45] "GET /data?min=10629342490369880&max=15429342490369880&sid=57 HTTP/1.1" 200 11245 4.0643
+209.217.100.70 - - [26/Mar/2013 22:27:51] "GET /data?min=10629342490369880&max=15429342490369880&sid=67 HTTP/1.1" 200 9023 3.9718
+209.217.100.70 - - [26/Mar/2013 22:27:57] "GET /data?min=10629342490369880&max=15429342490369880&sid=69 HTTP/1.1" 200 11572 3.9771
+209.217.100.70 - - [26/Mar/2013 22:28:06] "GET /data?min=10629342490369880&max=15429342490369880&sid=71 HTTP/1.1" 200 8923 3.9716
+209.217.100.70 - - [26/Mar/2013 22:28:12] "GET /data?min=10629342490369880&max=15429342490369880&sid=40 HTTP/1.1" 200 8725 3.8944
+209.217.100.70 - - [26/Mar/2013 22:28:19] "GET /data?min=10629342490369880&max=15429342490369880&sid=71 HTTP/1.1" 200 8923 3.9748
+209.217.100.70 - - [26/Mar/2013 22:28:26] "GET /data?min=10629342490369880&max=15429342490369880&sid=73 HTTP/1.1" 200 9023 3.8763
+209.217.100.70 - - [26/Mar/2013 22:28:32] "GET /data?min=10629342490369880&max=15429342490369880&sid=74 HTTP/1.1" 200 9192 3.8724
