@@ -186,6 +186,18 @@ function setCount(data){
     return data;
 }
 
+function setCount(data){
+    for ( var i in data ){
+        // Kludge to support reporting the ball position
+        if ( $('#player-select').val() == 4 ){
+            data[i].count = data[i].val/10;
+        } else {
+            data[i].count = data[i].val;
+        }
+    }
+    return data;
+}
+
 function findMax(data){
     var max=[0,0,0];
     for ( var i in data ){
